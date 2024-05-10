@@ -1,0 +1,5 @@
+<input #myinput type="text" [value]="valeur" [(ngModel)]="valeur">
+<hr>
+<p [ngClass]="statusClass">{{ valeur }}</p>
+<hr>
+<button (click)="changeClass()">magie !</button>
